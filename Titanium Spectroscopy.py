@@ -1,15 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[30]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
-
-
-# In[35]:
-
 
 
 wave,voltage = np.loadtxt('Ti_spec', unpack = True)
@@ -58,12 +51,5 @@ for i in range(len(wv_400)):
         print(i)
         print('wavelength is:', wv_400[i])
         print('amplitude is:', amp_400[i])
-
-    
-
-
-# In[ ]:
-
-
 
 
